@@ -3,22 +3,17 @@
 <head>
 <meta charset="utf-8">
 <title>Jonah Baade - Profile</title>
-
 <style>
 
-body {
-	background-color:#a2a2a2;
-	color:#700000;
-	font-family:Avenir, sans-serif;
+.desc {
+	color:#ef2f2f;
 }
 
-#me {
-	border: 3px #100000 solid;
+.lists {
+	color:#aaaa44;
 }
 
-#link {
-	text-align: center;
-}
+
 </style>
 </head>
 <body>
@@ -31,14 +26,14 @@ body {
 
 
 <h2> About Me </h2>
-<img id="me" src="me.jpg" title="I don't usually take pictures of myself, so I had to do one just right now." alt="I don't usually take pictures of myself, so I had to do one just right now." width="400" height="260">
+<img class="me" src="me.jpg" title="I don't usually take pictures of myself, so I had to do one just right now." alt="I don't usually take pictures of myself, so I had to do one just right now." width="400" height="260">
 
 
-<p> I am an adolescent human (<i>Homo sapiens</i>) male currently residing on the third planet "Earth" orbiting a G-class main sequence star somewhere in the Gould Belt. When not undergoing mandatory educational processes, I can usually be found on the digital computing devices that have become prevalent in Earth's recent history. I hope to ultimately study astronomy or astrophysics so I can learn about the universe around me. </p>
+<p class="desc"> I am an adolescent human (<i>Homo sapiens</i>) male currently residing on the third planet "Earth" orbiting a G-class main sequence star somewhere in the Gould Belt. When not undergoing mandatory educational processes, I can usually be found on the digital computing devices that have become prevalent in Earth's recent history. I hope to ultimately study astronomy or astrophysics so I can learn about the universe around me. </p>
 
-<p> Well, that was painful to type. Let's try to relax this a bit with a few lists. </p>
+<p class="desc"> Well, that was painful to type. Let's try to relax this a bit with a few lists. </p>
 
-<div>
+<div class="lists">
 <p><b>Planets/moons that would be really cool to visit:</b></p>
 <ol>
 <li>Titan</li>
@@ -61,5 +56,7 @@ body {
 <div id="link">
 <a href="mailto:18jbaade@ga.usmk12.org?Subject=Contact" target="_top">Contact Me</a>
 </div>
+
+<script src="bootstrap.js">
 </body>
 </html>
