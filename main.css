@@ -3,5 +3,13 @@
 }
 
 .lists {
-	color:#aaaa44;
+	color:#ffff77;
+}
+
+body {
+	background-color:#c9c9c9;
+}
+
+.image {
+	padding:24px;
 }
